@@ -1,6 +1,6 @@
 FROM alpine:3.21
 
-ENV NATS_SERVER 2.11.1-binary
+ENV NATS_SERVER=2.11.1-binary
 
 RUN set -eux; \
 	apkArch="$(apk --print-arch)"; \
